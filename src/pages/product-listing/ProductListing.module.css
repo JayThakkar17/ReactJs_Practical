@@ -1,0 +1,108 @@
+.tableContainer {
+  overflow-x: auto;
+  margin-top: 32px;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.responsive-table th,
+.responsive-table td {
+  height: 40px;
+  vertical-align: middle;
+  padding: 8px 15px;
+}
+
+.responsive-table th img {
+  width: 16px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  display: inline-block;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.responsive-table th span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.responsive-table th {
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.responsive-table tr {
+    text-align: center;
+}
+
+.responsive-table tr td {
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #3f4246;
+  cursor: pointer;
+}
+
+.responsive-table tr:first-child,
+.responsive-table tr:hover:first-child {
+  background-color: #f5f9fe;
+  z-index: 9;
+}
+
+.responsive-table tr:nth-child(2n) {
+  background: #fff;
+}
+
+.responsive-table tr:nth-child(odd) {
+  background: #f5f9fe;
+}
+
+.responsive-table tr.modifiedAppointment {
+  background-color: #3674ee;
+}
+
+.responsive-table tr.modifiedAppointment > td {
+  color: #fff;
+}
+
+.responsive-table tr.modifiedAppointment > td img {
+  filter: brightness(0) invert(1);
+}
+
+@media screen and (max-width: 767px) {
+  .responsive-table tr td,
+  .responsive-table tr th {
+    font-size: 12px;
+    line-height: 1.2;
+    height: 50px;
+    padding: 8px 15px;
+    min-width: 120px;
+  }
+
+  .responsive-table tr td:first-child,
+  .responsive-table tr th:first-child {
+    padding-left: 15px;
+  }
+
+  .responsive-table tr td:first-child,
+  .responsive-table tr td:last-child,
+  .responsive-table tr th:first-child,
+  .responsive-table tr th:last-child {
+    min-width: auto;
+  }
+}
+
+/* Add any other styles as needed */

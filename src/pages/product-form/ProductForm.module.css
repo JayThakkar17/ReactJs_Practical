@@ -1,0 +1,188 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.backIcon {
+  align-items: center;
+  border: 1px solid #d1d2d3;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  width: 48px;
+  margin-right: 16px;
+}
+
+.addProductHeader {
+  width: 100%;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.addProductHeader .title {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.productForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fieldWrapper {
+  margin-bottom: 24px;
+  width: 50%;
+}
+
+.fieldWrapperFull {
+  width: 100%;
+}
+
+.fieldWrapper label {
+  color: #191c21;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.fieldWrapper input {
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid #d1d2d3;
+  border-radius: 8px;
+  display: block;
+  padding: 10px 0px 10px 8px;
+  resize: none;
+  width: 100%;
+}
+
+.fieldWrapper select {
+  height: 52px;
+  background-color: #fff;
+  border: 1px solid #d1d2d3;
+  border-radius: 8px;
+  display: block;
+  padding: 10px 0px 10px 8px;
+  resize: none;
+  width: 100%;
+}
+
+.fieldWrapper textarea {
+  height: 46px;
+  background-color: #fff;
+  border: 1px solid #d1d2d3;
+  border-radius: 8px;
+  display: block;
+  padding: 10px 0px 10px 8px;
+  resize: none;
+  width: 100%;
+}
+
+.fieldWrapper textarea::placeholder,
+.fieldWrapper input::placeholder {
+  padding: 2px 0px 0px 8px;
+}
+
+.fieldRow {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+.rows {
+  width: 33.33%;
+}
+
+.submitBtnWrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.validationMessage {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.errorInput {
+  margin-bottom: 24px;
+  width: 50%;
+}
+
+.errorInputFull {
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.errorInput label {
+  color: #191c21;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.errorInput select {
+  border: 1px solid #ff0000;
+  height: 52px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: block;
+  padding: 10px 0px 10px 8px;
+  resize: none;
+  width: 100%;
+}
+
+.errorInput select:focus {
+  border: 1px solid #ff0000;
+}
+
+.errorInputFull label {
+  color: #191c21;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.errorInput input {
+  border: 1px solid #ff0000;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: block;
+  padding: 10px 0px 10px 8px;
+  resize: none;
+  width: 100%;
+}
+
+.errorInput input:focus {
+  border: 1px solid #ff0000;
+}
+
+.errorInputFull textarea {
+  border: 1px solid #ff0000;
+  height: 46px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: block;
+  padding: 10px 0px 10px 8px;
+  resize: none;
+  width: 100%;
+}
+
+.errorInputFull textarea:focus {
+  border: 1px solid #ff0000;
+}

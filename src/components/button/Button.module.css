@@ -1,0 +1,23 @@
+.btnPrimary {
+  background-color: #e59236;
+  border-radius: 8px;
+  padding: 6px 21px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+  .btnPrimary {
+    font-size: 14px;
+    line-height: 1.2;
+    height: 30px;
+    padding: 8px 18px;
+  }
+}

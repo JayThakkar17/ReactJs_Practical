@@ -1,0 +1,52 @@
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container button {
+  margin-left: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchProductInput {
+  border: 1px solid #d1d2d3;
+  border-radius: 8px;
+  margin-left: 10px;
+  max-width: 245px;
+  overflow: hidden;
+  padding: 10px 10px 10px 35px;
+  position: relative;
+  transition: all 0.5s ease;
+  width: 66%;
+}
+
+.searchProductInput input {
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.searchProductInput img {
+  left: 9px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
